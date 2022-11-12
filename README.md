@@ -1,7 +1,7 @@
 # BMI-Finder
 - Body Mass Index Finder 
 - Hosted on https://bmi-finder.netlify.app/
-<br>
+<!-- <br> -->
 - Created By <a href='https://blockcipher.netlify.app/'>Block_Cipher</a>
 <br>
 
