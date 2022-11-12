@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BMI Finder</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+	<!-- icon -->
+	<link rel="icon" href="https://img.freepik.com/premium-vector/indikator-bmi-white-background-chart-concept-vector-icon_100456-6275.jpg?w=900">
+</head>
+<body>
+	<h1 class="heading">Body Mass Index(BMI) Finder</h1>
+
+	<form class="form">
+		<div class="input-age">
+			<label for="fname"><span class="defaul">Enter Your Height (in cm)</span><br><input id='height' placeholder="Enter Your Height :"></label><br>
+			<label for="fname"><span class="defaul">Enter Your Weight (in kg)</span><br><input id='weight' placeholder="Enter Your Weight :"></label>
+			<br>
+			<!-- <a href=""></a>	 -->
+			<button type="button" class="calculate" onclick="calculate()">Calculate</button>
+			<br>
+			<span class="final">Your BMI is : </span><h1 id="ans" > </h1><span class="final"> kg/m2</span>
+			<!-- <div id='ans'></div> -->
+
+		</div>
+		<p>Created By <a href="https://blockcipher.netlify.app/">Block_Cipher<a></p>
+	</form>
+
+
+	<!-- <footer> -->
+	<!-- </footer> -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

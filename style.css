@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family:cursive;
+}
+body{
+/*	background-color: hsl(0,90%,60%);*/
+	background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg');
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+	margin: 5%;
+}
+
+.heading{
+	text-align: center;
+	color: hsl(0,90%,60%);
+}
+
+
+.form{
+	border: 10px solid #da4949;
+	text-align: center;
+	margin: 10%;
+	border-radius: 3rem;
+/*	box-shadow: 10px 10px 10px 10px #f96666;*/
+	transition: 0.5s;
+}
+
+.form:hover{
+	box-shadow: 10px 10px 10px 10px #f96666;
+}
+
+.default{
+	display: initial;
+}
+
+
+input{
+/*	color: red;*/
+	margin-top: 1%;
+	font-size: 30px;
+	border-radius: 10px;
+/*	border: 4px solid red;*/
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 2px solid #ccc;
+
+}
+
+.input-age{
+	font-size: 30px;
+	margin-top: 5%;
+	margin-bottom: 6%;
+}
+
+.input-age label{
+	color: #fff;
+}
+
+.calculate{
+	margin-top: 3%;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+	border: 2px solid #ccc;
+	color: hsl(0,90%,60%);
+}
+
+#ans{
+	display: none;
+	color: #fff;
+}
+
+.final{
+	font-size: 35px;
+	display: none;
+	color: #fff;
+	font-family: cursive;
+}
+
+P{
+	color: #fff;
+
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	transition: 0.5s;
+	color: hsl(0,90%,60%);
+}
+
+/* ================================================== SMall Screen */
+
+@media (min-width: 300px) and (max-width: 500px){
+	body{
+/*		margin: 10%;*/
+	}
+	.heading{
+		margin-top: 13%;
+		font-size:30px;
+	}
+
+	.form{
+		padding: 2%;
+		width: 268px;
+		height: 430px;
+		margin-top: 22%;
+		margin-left: 7%;
+		margin-right: 3%;
+/*		margin-top:;*/
+	}
+	input{
+		font-size: 15px;
+		padding: 20px;
+	}
+
+	.input-age label{
+		font-size: 25.9px;
+	}
+
+	.final{
+		margin-top: 2%;
+		font-size: 20px;
+	}
+	#ans{
+		font-size: 20px;
+	}
+
+	p{
+		display: none;
+	}
+}	
+
+@media (min-width: 500px) and (max-width: 600px){
+	.form{
+		padding: 2%;
+		width: 310px;
+		height: 500px;
+	}
+
+	input{
+		font-size: 20px;
+		padding: 20px;
+	}
+	.input-age label{
+		font-size: 30px;
+	}
+
+	.final{
+		margin-top: 2%;
+		font-size: 24px;
+	}
+
+	.input-age{
+		margin-bottom: 0%;
+	}
+	#ans{
+		font-size: 34px;
+	}
+
+	p{
+		display: none;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 700px){
+	.form{
+/*		padding: 2%;*/
+		height: 520px;
+	}
+
+	input{
+		margin-top: 5%;
+		padding: 10px;
+	}
+
+	.input-age{
+		margin-top: 10%;
+	}
+	p{
+		display: none;
+	}
+}
