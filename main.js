@@ -7,7 +7,7 @@ function calculate(height,weight) {
 	var new_height = document.querySelector('#height').value;
 	var new_weight = document.querySelector('#weight').value;
 
-	var sqr_height = new_height*new_height;
+	var sqr_height = (new_height*new_height)/100;
 	var bmi = new_weight/sqr_height;
 	var ans = Math.round(bmi*10)/10;
 	// var fd = ans+' kg'
