@@ -6,11 +6,11 @@ var weight = document.querySelector('#weight').innerText;
 function calculate(height,weight) {
 	var new_height = document.querySelector('#height').value;
 	var new_weight = document.querySelector('#weight').value;
-
-	var sqr_height = (new_height*new_height)/100;
+        var div_height = new_height/100
+	var sqr_height = (div_height*div_height);
 	var bmi = new_weight/sqr_height;
 	var ans = Math.round(bmi*10)/10;
-	// var fd = ans+' kg'
+	// var fd = ans+' 
 	var rem = document.querySelector('#ans').innerHTML = ans;
 
 	let result = document.querySelector('#ans')
